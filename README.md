@@ -30,3 +30,11 @@ Since the DSK6713 is a very old type of DSP board, the latest CCS version which 
 
 		- C6000 Linker
 			- Command-line pattern: add "--diag_suppress=16002" to disable version dismatch warning.
+
+## Hardware Connection:
+	- Line In:
+		- Left channel: error microphone
+		- Right channel: reference microphone for the noise
+	- Lint Out:
+		- Left channel: anti noise signal
+![Hardware](placement.jpg)
